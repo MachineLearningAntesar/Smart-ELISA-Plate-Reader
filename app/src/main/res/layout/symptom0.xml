@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout">
+
+    <TextView
+        android:id="@+id/symp1"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/educate1"
+        android:textColor="@color/primary_text"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/conveyMesImg1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:background="@null"
+        app:layout_constraintStart_toEndOf="@+id/conveyMesImg8"
+        app:layout_constraintTop_toBottomOf="@+id/symp1"
+        app:srcCompat="@drawable/symp1_icon" />
+
+    <ImageButton
+        android:id="@+id/conveyMesImg2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@null"
+        app:layout_constraintBottom_toTopOf="@+id/conveyMesImg10"
+        app:layout_constraintStart_toEndOf="@+id/conveyMesImg1"
+        app:layout_constraintTop_toTopOf="@+id/conveyMesImg9"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/symp2_icon" />
+
+    <ImageButton
+        android:id="@+id/conveyMesImg3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:background="@null"
+        app:layout_constraintEnd_toEndOf="@+id/symp1"
+        app:layout_constraintTop_toBottomOf="@+id/conveyMesImg9"
+        app:srcCompat="@drawable/symp3_icon" />
+
+    <ImageButton
+        android:id="@+id/conveyMesImg4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="36dp"
+        android:background="@null"
+        app:layout_constraintStart_toStartOf="@+id/conveyMesImg2"
+        app:layout_constraintTop_toBottomOf="@+id/conveyMesImg3"
+        app:srcCompat="@drawable/symp4_icon" />
+
+    <ImageButton
+        android:id="@+id/conveyMesImg5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="28dp"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/conveyMesImg6"
+        app:srcCompat="@drawable/symp5_icon" />
+
+    <ImageButton
+        android:id="@+id/conveyMesImg6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="@+id/conveyMesImg5"
+        app:layout_constraintEnd_toStartOf="@+id/conveyMesImg4"
+        app:srcCompat="@drawable/symp6_icon" />
+
+    <ImageButton
+        android:id="@+id/conveyMesImg7"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@null"
+        app:layout_constraintEnd_toStartOf="@+id/conveyMesImg5"
+        app:layout_constraintTop_toTopOf="@+id/conveyMesImg4"
+        app:srcCompat="@drawable/symp7_icon" />
+
+    <ImageButton
+        android:id="@+id/conveyMesImg8"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="@+id/conveyMesImg3"
+        app:layout_constraintStart_toStartOf="@+id/symp1"
+        app:layout_constraintTop_toTopOf="@+id/conveyMesImg3"
+        app:srcCompat="@drawable/symp8_icon" />
+
+    <ImageButton
+        android:id="@+id/conveyMesImg9"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="36dp"
+        android:background="@null"
+        app:layout_constraintBottom_toTopOf="@+id/conveyMesImg10"
+        app:layout_constraintEnd_toStartOf="@+id/conveyMesImg1"
+        app:layout_constraintTop_toTopOf="@+id/conveyMesImg1"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/symp9_icon" />
+
+    <ImageButton
+        android:id="@+id/conveyMesImg10"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintBottom_toTopOf="@+id/conveyMesImg5"
+        app:layout_constraintEnd_toStartOf="@+id/conveyMesImg3"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toEndOf="@+id/conveyMesImg8"
+        app:layout_constraintTop_toBottomOf="@+id/conveyMesImg1"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/background_icon_red" />
+
+</android.support.constraint.ConstraintLayout>

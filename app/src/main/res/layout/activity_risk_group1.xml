@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.as9221.kmeancluster.AboutUsActivity">
+
+    <TextView
+        android:id="@+id/riskGroup1"
+        android:layout_width="330dp"
+        android:layout_height="113dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:paddingTop="40dp"
+        android:text="@string/tb_group1"
+        android:textColor="@color/primary_text"
+        android:textSize="17sp"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="0dp"
+        android:layout_height="423dp"
+        android:layout_marginTop="8dp"
+        android:paddingTop="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/riskGroup1">
+
+        <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:scrollbars="vertical">
+
+            <CheckBox
+                android:id="@+id/criterion1"
+                android:layout_width="325dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/divider_rectangle"
+                android:button="@drawable/cb_selector"
+                android:paddingLeft="15dp"
+                android:text="@string/criteria_1"
+                android:textSize="15dp"
+                app:layout_constraintHorizontal_bias="0.366"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <CheckBox
+                android:id="@+id/criterion2"
+                android:layout_width="325dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/divider_rectangle"
+                android:button="@drawable/cb_selector"
+                android:paddingLeft="15dp"
+                android:text="@string/criteria_2"
+                android:textSize="15dp"
+                app:layout_constraintHorizontal_bias="0.366"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/criterion1" />
+
+            <CheckBox
+                android:id="@+id/criterion3"
+                android:layout_width="325dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/divider_rectangle"
+                android:button="@drawable/cb_selector"
+                android:paddingLeft="15dp"
+                android:text="@string/criteria_3"
+                android:textSize="15dp"
+                app:layout_constraintHorizontal_bias="0.366"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/criterion2" />
+
+            <CheckBox
+                android:id="@+id/criterion4"
+                android:layout_width="325dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/divider_rectangle"
+                android:button="@drawable/cb_selector"
+                android:paddingLeft="15dp"
+                android:text="@string/criteria_4"
+                android:textSize="15dp"
+                app:layout_constraintHorizontal_bias="0.387"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/criterion3" />
+
+            <CheckBox
+                android:id="@+id/criterion5"
+                android:layout_width="325dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/divider_rectangle"
+                android:button="@drawable/cb_selector"
+                android:paddingLeft="15dp"
+                android:text="@string/criteria_5"
+                android:textSize="15dp"
+                app:layout_constraintHorizontal_bias="0.382"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/criterion4" />
+
+            <CheckBox
+                android:id="@+id/criterion6"
+                android:layout_width="325dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/divider_rectangle"
+                android:button="@drawable/cb_selector"
+                android:paddingLeft="15dp"
+                android:text="@string/criteria_6"
+                android:textSize="15dp"
+                app:layout_constraintHorizontal_bias="0.382"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/criterion5" />
+
+            <CheckBox
+                android:id="@+id/criterion7"
+                android:layout_width="325dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/divider_rectangle"
+                android:button="@drawable/cb_selector"
+                android:paddingLeft="15dp"
+                android:text="@string/criteria_7"
+                android:textSize="15dp"
+                app:layout_constraintHorizontal_bias="0.382"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/criterion6" />
+
+            <CheckBox
+                android:id="@+id/criterion8"
+                android:layout_width="325dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/divider_rectangle"
+                android:button="@drawable/cb_selector"
+                android:paddingLeft="15dp"
+                android:text="@string/criteria_8"
+                android:textSize="15dp"
+                app:layout_constraintHorizontal_bias="0.382"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/criterion7" />
+
+            <CheckBox
+                android:id="@+id/criterion9"
+                android:layout_width="325dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/divider_rectangle"
+                android:button="@drawable/cb_selector"
+                android:paddingLeft="15dp"
+                android:text="@string/criteria_7"
+                android:textSize="15dp"
+                app:layout_constraintHorizontal_bias="0.382"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/criterion8" />
+
+            <CheckBox
+                android:id="@+id/criterion10"
+                android:layout_width="325dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/divider_rectangle"
+                android:button="@drawable/cb_selector"
+                android:paddingLeft="15dp"
+                android:text="@string/criteria_10"
+                android:textSize="15dp"
+                app:layout_constraintHorizontal_bias="0.382"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/criterion9" />
+
+            <CheckBox
+                android:id="@+id/criterion11"
+                android:layout_width="325dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/divider_rectangle"
+                android:button="@drawable/cb_selector"
+                android:paddingLeft="15dp"
+                android:text="@string/criteria_11"
+                android:textSize="15dp"
+                app:layout_constraintHorizontal_bias="0.382"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/criterion10" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

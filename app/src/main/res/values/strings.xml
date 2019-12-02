@@ -1,0 +1,257 @@
+<resources>
+    <string name="app_name">TB Test</string>
+    <string name="intro_message">
+        <![CDATA[
+
+            This app diagnoses Tuberculosis (TB) disease by capturing an image of an Elisa plate and analyse colors and provide you with the result of P for positive and N for negative using Camera2 API. With this app, can preview and take pictures.
+
+        ]]>
+    </string>
+
+    <string name="inst1_message">
+        <![CDATA[
+
+            Tap gallery button to load your image or tap camera button to take a new image
+
+        ]]>
+    </string>
+
+    <string name="result_title">
+        <![CDATA[
+
+            <font color="#303F9F"><b><big>P = Positive  </big></b></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#9f305b"><b><big>N = Negative</big></b></font>
+
+        ]]>
+    </string>
+
+    <string name="about_us_title">
+        <![CDATA[
+
+            TB-Test - A smart mobile enabled scheme for tuberculosis testing
+
+        ]]>
+    </string>
+
+    <string name="about_us_description">
+        <![CDATA[
+
+           <p><b>Tuberculosis (TB) remains one of the most devastating infectious diseases and its treatment efficiency is majorly influenced by the stage at which the TB germ gets diagnosed. TB represents a public health concern in Malaysia and in many neighbouring countries, with a current incidence annual rate of 80/100,000.</b></p>
+
+           <p>The available methods for TB diagnosis are either time consuming, costly or not efficient.</p> <p>This institutional collaboration is between</p>
+           <p>\u2022 Anglia Ruskin University (ARU)</p>
+           <p>\u2022 Universiti Putra Malaysia (UPM)</p>
+           <p>\u2022 Pow Health Limited</p>
+           <p>\u2022 NanoMalaysia Berhad Limited</p>
+
+           <p>This project will offer an opportunity to investigate and to develop a mobile enabled Point-of-Care (POC) platform to detect TB.</p>
+
+           <p><font color="#303F9F"><b><big>Funding</big></b></font></p>
+           <p>The total funding for this project is approximately £130,000 which is jointly provided by</p>
+
+           <p>\u2022 The Newton Fund</p>
+           <p>\u2022 The Newton-Ungku Omar Fund</p>
+
+           <p><font color="#303F9F"><b><big>Aims of the project</big></b></font></p>
+           <p>\u2022 To develop a mobile enabled Point-of-Care (POC) platform to detect TB.</p>
+           <p>\u2022 To improve efforts in controlling TB through wider, faster and low cost 24/7 real-time access.</p>
+           <p>\u2022 Introduce the system to High Commissions (includes UK) in the countries that require TB test for the visa application.</p>
+
+           <p><font color="#303F9F"><b><big>Project team members</big></b></font></p>
+           <p>\u2022 Prof Alamgir Hossain, Principal Investigator</p>
+           <p>\u2022 Prof Nor Azah Binti Yusof, Co-Principal Investigator</p>
+           <p>\u2022 Dr Antesar Shabut, Research Co-Investigator and Software Developer</p>
+           <p>\u2022 Dr Benjamin Evans, Co-Principal Investigator</p>
+
+           <p><font color="#303F9F"><b><big>Find out more about TB-Test</p></big></b></font></p>
+           <p>Do you have questions, comments or visit our lab? If you would like to chat about the project or if you would like us to visit you to discuss our research, please contact <a href="http://www.anglia.ac.uk/anglia-ruskin-it-research-institute/meet-the-team/antesar-shabut">Dr Antesar Shabut</a>.</p>
+           <p>You will find updates on this project on our <a href="https://twitter.com/ARU_ARITI">Twitter</a> feed, do not forget to subscribe.</p>
+
+        ]]>
+    </string>
+
+    <string name="terms_title">
+        <![CDATA[
+
+            TERMS AND CONDITIONS
+
+        ]]>
+    </string>
+
+    <string name="app_title">
+        <![CDATA[
+
+             <p><center>To conduct TB Test, tap the buttons below …</center></p>
+
+    ]]></string>
+
+
+    <string name="terms_description">
+        <![CDATA[
+
+           <p><font color="#303F9F"><b><big>1. Introduction</big></b></font></p>
+           <p>These <font color="#03A9F4"><b>TB Test</font><b> App Standard Terms and Conditions written on this screen shall manage your use of this app. These Terms will be applied fully and affect to your use of this app. By using this TB Test app, you agreed to accept all terms and conditions written in here. You must not use this app if you <font color="red"><b>disagree</font></b> with any of these TB Test Standard Terms and Conditions.</p>
+           <p><font color="#303F9F"><b><big>2. Intellectual Property Rights</big></b></font></p>
+           <p><font color="#303F9F"><b><big>3. Restrictions</big></b></font></p>
+           <p><font color="#303F9F"><b><big>4. Your Content</big></b></font></p>
+           <p><font color="#303F9F"><b><big>5. No warranties</big></b></font></p>
+           <p><font color="#303F9F"><b><big>6. Limitation of liability</big></b></font></p>
+           <p><font color="#303F9F"><b><big>7. Indemnification</big></b></font></p>
+           <p><font color="#303F9F"><b><big>8. Severability</big></b></font></p>
+           <p><font color="#303F9F"><b><big>9. Variation of Terms</big></b></font></p>
+           <p><font color="#303F9F"><b><big>10. Assignment</big></b></font></p>
+           <p><font color="#303F9F"><b><big>11. Entire Agreement</big></b></font></p>
+           <p><font color="#303F9F"><b><big>12. Governing Law & Jurisdiction</big></b></font></p>
+
+        ]]>
+    </string>
+
+    <string name="inst_help1">
+        <![CDATA[
+
+        <p><font color="#303F9F"><b><big>How to use the TB Test app</big></b></font></p>
+
+        <p>This help will explain to you how to use the TB Test App by going through all the screens and provide you with rules to get the best results.<br/><br/>
+           <font color="#303F9F"><b>Screen 1</b></font> below will show you the main screen of the app after the splash screen disappear. The screen will show you four buttons to use: <br/>
+           <font color="#303F9F"><b>\u2022 Test New Image:</b></font> this button will open the camera device and ask the user to take an image of the Elisa plate and forward it to the next screen to start the result process.<br/>
+           Camera settings and how to capture the image need to be followed by the user. See camera settings and rules below.<br/>
+           <font color="#303F9F"><b>\u2022 Test Existing Image:</b></font> this button will open the device files and let the user select any Elisa saved image and will forward it to the next screen to start the result process.<br/>
+           <font color="#303F9F"><b>\u2022 Help:</b></font> this button is on the bottom right of the screen and will allow you to preview this help material.<br/>
+           <font color="#303F9F"><b>\u2022 Feedback:</b></font> this button will allow the user to send a feedback on the app through any email apps available on the device to the app developer. </p>
+
+        ]]>
+    </string>
+
+    <string name="inst_help2">
+        <![CDATA[
+
+        <p><font color="#303F9F"><b>Screen 2</b></font> will show you the second screen of the app after you capture or select your image. The screen will show you the image you have just selected and only one button to use: <br/>
+           <font color="#303F9F"><b>\u2022 Result:</b></font> this button will send your image for processing and will show a progress dialog which is shown in Screen 3.</p>
+
+        ]]>
+    </string>
+
+    <string name="inst_help3">
+        <![CDATA[
+
+        <p><font color="#303F9F"><b>Screen 3</b></font> will show you the second screen with the progress dialog and ask you to wait a few seconds until the image processing finishes and result will be shown in screen 4.</p>
+
+        ]]>
+    </string>
+
+    <string name="inst_help4">
+        <![CDATA[
+
+        <p><font color="#303F9F"><b>Screen 4</b></font> will show you the result screen of the app after processing the image. The screen will show you the orignial image and the result image.
+            The result image will contain the letter P and N which indicating Positive and Negative result respectively. The screen will show you two buttons to use: <br/>
+           <font color="#303F9F"><b>\u2022 Save:</b></font> this button will save you result to a TempFolder in your device files and take you to the main screen to start a new test.<br/>
+           <font color="#303F9F"><b>\u2022 Close:</b></font> this button will close the result screen without saving your result image and will take you to the main screen to start a new test.</p>
+
+        ]]>
+    </string>
+
+    <string name="camera_setting">
+        <![CDATA[
+
+        <p><font color="#303F9F"><b><big>Camera settings and rules</big></b></font><br/><br/>
+           This section will explain to you the basic specification and requirements of the camera.<br/>
+           The App will make use of the camera device and ask for permission to use the camera. If permission is granted the app will use the camera device to capture the image. You need to follow the following rules:<br/><br/>
+           1. Make sure you have a good light condition to capture the image.<br/>
+           2. Make sure the wells are filled to the top to avoid shadows in the image.<br/>
+           3. Avoid filling the wells on the edges of the Elisa plate.<br/>
+           4. Make sure you leave a blank space between the filled wells and the edges of the image, make sure they are at the centre of the camera.<br/>
+           5. Set Up the distance between the camera and the Elisa plate to approximately 38 cm. </p>
+
+        ]]>
+    </string>
+
+    <string name="title_send_feedback">Send feedback</string>
+    <string name="mail_feedback_email">antesar.shabut@anglia.ac.uk</string>
+    <string name="mail_feedback_subject">Feedback on TB Test app</string>
+    <string name="mail_feedback_message">Hi,\n\nI would like to give you some feedback on TB Test app:</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="account_name_text">Account Name</string>
+    <string name="test_photos">Result</string>
+    <string name="home">Home</string>
+    <string name="about_us">About Us</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="header">Header</string>
+    <string name="account_menu_item">Account</string>
+    <string name="terms"><![CDATA[Terms & Conditions]]></string>
+
+    <string name="sympT1">Persistent cough</string>
+    <string name="sympT2">Chest pain</string>
+    <string name="sympT3">Coughing up blood</string>
+    <string name="sympT4">Fatigue</string>
+    <string name="sympT5">Weight loss</string>
+    <string name="sympT6">Appetite loss</string>
+    <string name="sympT7">Chills</string>
+    <string name="sympT8">Fever</string>
+    <string name="sympT9">Night sweats</string>
+
+    <string name="sympD1">A cough is a sudden and often repetitively occurring, protective reflex, which helps to clear the large breathing passages from fluids, irritants, foreign particles and microbes. Persistent coughing that lasts 3 weeks or more usually indicates the presence of the TB disease.</string>
+    <string name="sympD2">Chest pain is pain in any region of the chest which may be a symptom of a number of serious disorders and is, in general, considered a medical emergency. Chest pain can be related to TB disease when combined with other symptoms.</string>
+    <string name="sympD3">Coughing up of blood or blood-stained sputum from the bronchi, larynx, trachea, or lungs can be considered as a sign of TB and is, in general, considered a medical emergency.</string>
+    <string name="sympD4">Fatigue is a subjective feeling of tiredness which is distinct from weakness, and has a gradual onset. Physical fatigue is the transient inability of a muscle to maintain optimal physical performance, and it is a sign of the TB infection.</string>
+    <string name="sympD5">Weight loss, refers to a reduction of the total body mass, due to a mean loss of fluid, body fat or adipose tissue or lean mass, namely bone mineral deposits, muscle, tendon, and other connective tissue. Unintentionally weight loss can be considered as a strong sign of the TB infection.</string>
+    <string name="sympD6">Loss of appetite is the decreased sensation of appetite. Many possible causes exist for a decreased appetite, which often indicates a serious clinical condition or pose a significant risk such as the infection with TB.</string>
+    <string name="sympD7">Chills is a feeling of coldness occurring during a high fever, but sometimes is also a common symptom which occurs alone in specific people. Chills are a common symptom caused by active TB infection.</string>
+    <string name="sympD8">Fever, also known as pyrexia and febrile response, is defined as having a temperature above the normal range due to an increase in the body temperature above 100.9 °F. A fever can be caused by many medical conditions and it is considered as a strong sign of TB.</string>
+    <string name="sympD9">Night sweats, also known as nocturnal hyperhidrosis, is the occurrence of excessive sweating during sleep. One of the most common causes of night sweats is the infection of TB disease.</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="symp1">Have you developed a persistent cough that lasts 3 weeks or longer?</string>
+    <string name="symp2">Do you have pain in the chest?</string>
+    <string name="symp3">Are you coughing up blood or sputum?</string>
+    <string name="symp4">Have you experienced a constant weakness or fatigue?</string>
+    <string name="symp5">Have you experienced a weight loss?</string>
+    <string name="symp6">Have you experienced a loss of appetite?</string>
+    <string name="symp7">Do you have a chills?</string>
+    <string name="symp8">Do you have a fever?</string>
+    <string name="symp9">Have you experienced night sweats?</string>
+
+    <string name="description_tb">If you develop TB symptoms, this is active TB.</string>
+    <string name="CHECKSYMPTOM">Check symptom</string>
+    <string name="answer_prompt">Select answer</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="tb_group1">Do you have a high chance of being infected with TB bacteria due to the following reasons:</string>
+    <string name="criteria_1">Close contact of a person with active TB disease</string>
+    <string name="criteria_2">Immigrated from areas of the world with high rates of TB</string>
+    <string name="criteria_3">A child lives in the same household as a person who has a positive TB test</string>
+    <string name="criteria_4">Homeless persons</string>
+    <string name="criteria_5">Injection drug users</string>
+    <string name="criteria_6">HIV persons</string>
+    <string name="criteria_7">Persons who work or reside with people with high risk for TB in hospitals</string>
+    <string name="criteria_8">Persons who work or reside in homeless shelters</string>
+    <string name="criteria_9">Persons who work or reside in correctional facilities</string>
+    <string name="criteria_10">Persons who work as nursing homes for those with active TB</string>
+    <string name="criteria_11">Persons who work as residential homes for those with HIV</string>
+
+    <string name="tb_group2">Do you have any conditions that weaken your immune system due to the following conditions:</string>
+    <string name="criteria_12">HIV infection (the virus that causes AIDS)</string>
+    <string name="criteria_13">Substance abuse such as Illicit drug users (IDU)</string>
+    <string name="criteria_14">Silicosis</string>
+    <string name="criteria_15">Children less than 3 years of age</string>
+    <string name="criteria_16">Diabetes mellitus</string>
+    <string name="criteria_17">Severe kidney disease</string>
+    <string name="criteria_18">Low body weight</string>
+    <string name="criteria_19">Head or neck cancer</string>
+    <string name="criteria_20">Treatments for organ transplants</string>
+    <string name="criteria_21">Treatments for rheumatoid arthritis disease</string>
+    <string name="criteria_22">Treatments for crohn’s disease</string>
+
+    <string name="PROFESSIONAL">Professional</string>
+    <string name="educate1">To learn about TB symptoms, tap the images below</string>
+    <string-array name="Yes_No">
+        <item>Select</item>
+        <item>YES</item>
+        <item>NO</item>
+    </string-array>
+
+</resources>
+

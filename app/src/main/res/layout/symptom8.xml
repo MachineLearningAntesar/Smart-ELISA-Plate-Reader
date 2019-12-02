@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/symp8"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/symp8"
+        android:textColor="@color/primary_text"
+        android:textSize="17sp" />
+
+    <RadioGroup
+        android:id="@+id/radioAnswer"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/conveyMesImg"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioYES"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:paddingLeft="15dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/divider_rectangle"
+            android:layout_marginTop="22dp"
+            android:layout_weight="1"
+            android:text="YES" />
+
+        <RadioButton
+            android:id="@+id/radioNO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:paddingLeft="15dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/divider_rectangle"
+            android:layout_marginTop="22dp"
+            android:layout_weight="1"
+            android:text="NO" />
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/conveyMesImg"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
+        app:srcCompat="@drawable/tb_fever" />
+
+</RelativeLayout>
